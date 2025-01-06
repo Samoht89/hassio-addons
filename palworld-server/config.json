@@ -1,16 +1,16 @@
 {
-    "name": "Palworld Server",
-    "version": "1.0",
-    "slug": "palworld-server",
-    "description": "Run a Palworld server using home-assistant",
-    "startup": "services",
-    "boot": "auto",
-    "ports": {
-      "2456/udp": 2456,
-      "2457/udp": 2457,
-      "2458/udp": 2458
-    },
-    "schema": {},
-    "image": "ghcr.io/thijsvanloef/palworld-server-docker:latest",
-    "arch": ["armv7", "arm64", "amd64", "i386"]
-  }
+  "name": "Palworld Server",
+  "version": "1.0",
+  "slug": "palworld-server",
+  "description": "Run a Palworld server using Docker",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "2456/udp": 2456,
+    "2457/udp": 2457,
+    "2458/udp": 2458
+  },
+  "schema": {},
+  "image": "ghcr.io/thijsvanloef/palworld-server-docker:latest",
+  "arch": ["armv7", "arm64", "amd64", "i386"]
+}

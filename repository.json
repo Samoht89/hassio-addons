@@ -1,1 +1,5 @@
-echo '{"name": "Custom Add-ons", "url": "https://github.com/Samoht89/hassio-addons"}' > repository.json
+{
+    "name": "Hass.io Add-ons",
+    "url": "https://github.com/Samoht89/hassio-addons",
+    "maintainer": "Thomas Sundell-Ekornrød"
+  }

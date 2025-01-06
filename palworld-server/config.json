@@ -14,4 +14,3 @@
     "image": "ghcr.io/thijsvanloef/palworld-server-docker:latest",
     "arch": ["armv7", "arm64", "amd64", "i386"]
   }
-  

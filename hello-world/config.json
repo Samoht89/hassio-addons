@@ -1,0 +1,11 @@
+{
+  "name": "Hello World Add-on",
+  "version": "1.0",
+  "slug": "hello-world",
+  "description": "A simple example add-on to verify repository setup.",
+  "startup": "services",
+  "boot": "auto",
+  "schema": {},
+  "arch": ["armv7", "arm64", "amd64", "i386"],
+  "image": "alpine:latest"
+}
